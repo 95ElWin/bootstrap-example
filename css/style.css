@@ -1,6 +1,21 @@
-.banner{
-    height: 60vh;
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
-    background-position: center;
+.banner {
+  height: 70vh;
+  position: relative;
+  /* background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center; */
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
 }

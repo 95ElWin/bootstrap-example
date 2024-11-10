@@ -34,3 +34,11 @@
   padding: 60px 0px;
   background-color: #f9fafb;
 }
+/*--------------------FOOTER----------------*/
+footer {
+  background-color: #353638;
+  padding-top: 60px;
+}
+footer .footer-bottom {
+  background-color: #2b2c2e;
+}
